@@ -4,6 +4,4 @@ script: true
 jobs:
   include:
     - os: osx
-      osx_image: xcode13.2
-    - os: linux
-      dist: focal
+      osx_image: xcode14.2
