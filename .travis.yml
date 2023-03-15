@@ -1,0 +1,9 @@
+language: shell
+install: skip
+script: true
+jobs:
+  include:
+    - os: osx
+      osx_image: xcode13.2
+    - os: linux
+      dist: focal
