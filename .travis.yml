@@ -3,7 +3,7 @@ install: skip
 script: true
 jobs:
   include:
-    - os: osx
-      osx_image: xcode14.2
+    #- os: osx
+    #  osx_image: xcode14.2
     - os: linux
       dist: focal
